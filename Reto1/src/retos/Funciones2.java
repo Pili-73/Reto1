@@ -2,18 +2,17 @@ package retos;
 
 public class Funciones2 {
 
-	public static boolean esPar (int n) {
-		if (n % 2 == 0) 
-			return true;
-		else
-			return false;
+	public static int multiplicar (int a, int b) {
+		return a*b;
 	}
 	
-	public static boolean esImpar (int n) {
-		if (n % 2 == 0) 
-			return false;
-		else
-			return true;
+	public static int dividir (int a, int b) {
+		if (b != 0)
+			return a/b;
+		else {
+			System.out.println("No se puede dividir entre 0");
+			return -1;
+		}
 	}
 	
 	public static boolean esPositivo (int n) {
