@@ -7,7 +7,7 @@ public class reto1 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int operacion = -1;
+		int operacion = -1, n = 0, a = 0, b = 0;
 		boolean mal;
 		
 		do {
@@ -36,12 +36,9 @@ public class reto1 {
 			}
 			
 			if (!mal) {
-				
-				
-				
+								
 			}
-				
-			
+							
 		} while (operacion != 0);
 		
 		sc.close();
